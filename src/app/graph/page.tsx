@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const Graph = () => {
+const page = () => {
     return (
         <div>
             <h1>first graph comes here</h1>
@@ -9,4 +9,4 @@ const Graph = () => {
     );
 };
 
-export default Graph;
+export default page;
