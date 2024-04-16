@@ -6,6 +6,7 @@ The E-Commerce-Dashboard is a website that helps users see where and when their 
 - [1 Analysis](/analysis)
   - [1.1 Data Dictionary](/analysis/DataDictionary.md)
   - [1.2 User Stories](/analysis/User%20Stories.md)
+  - [1.3 Work Breakdown Structure](/analysis/Work%20Breakdown%20Structure.md)
 - [2 Design](/design)
   - [2.1 Wireframes](/design/wireframes)
   - [2.2 Entity-Relationship-Model](/design/ERM)
