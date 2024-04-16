@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
             <Header />
-            
+
             <div>
                 <h1>Welcome to the Page</h1>
                 {/* Use Link component properly */}
