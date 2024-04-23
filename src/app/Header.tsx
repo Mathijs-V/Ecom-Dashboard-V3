@@ -7,6 +7,10 @@ function Header() {
     return (
         <header className="header">
             <h1>E-Commerce-Dashboard</h1>
+            <Link href="./sales" passHref>
+                    <button type="button">sales</button>
+            </Link>
+            <br></br>
             {/* Add any other header content here */}
             <Link href="./graph" passHref>
                     <button type="button">Graph</button>
@@ -16,3 +20,5 @@ function Header() {
 }
 
 export default Header;
+
+export const config = { runtime: 'client' };

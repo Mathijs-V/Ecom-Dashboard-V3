@@ -15,3 +15,5 @@ function Footer() {
 }
 
 export default Footer
+
+export const config = { runtime: 'client' };

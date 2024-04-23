@@ -2,6 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import Footer from './Footer';
 import Header from './Header';
+import SalesGraph from './SalesGraph';
+
+
 
 export default function Home() {
     return (
@@ -10,6 +13,7 @@ export default function Home() {
 
             <div>
                 <h1>Welcome to the Page</h1>
+                <SalesGraph />
                 {/* Use Link component properly */}
                 <Link href="/graph" passHref>
                     <button type="button">Go to First Graph</button>
@@ -19,3 +23,5 @@ export default function Home() {
         </>
     );
 }
+
+export const config = { runtime: 'client' };
