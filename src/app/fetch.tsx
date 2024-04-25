@@ -70,6 +70,7 @@ const getData = async () =>{
     try {
         const response = await fetch(`https://api.bol.com/retailer/shipments/invoices/requests`, {
             method: 'GET',
+            cache: 'no-store',
             headers: {
                 Authorization: `Bearer ${token}`,
                 'Content-Type': 'application/vnd.retailer.v10+json;charset=UTF-8',
