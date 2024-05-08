@@ -2,3 +2,6 @@
 |----------|:-------------|
 | Barcode | Barcode refers to the European Article Numbering code (EAN). |
 | Word | Definition. |
+| Word | Definition. |
+| Word | Definition. |
+| Word | Definition. |
